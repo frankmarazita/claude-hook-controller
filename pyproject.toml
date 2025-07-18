@@ -1,0 +1,11 @@
+[project]
+name = "claude-hook-controller"
+version = "0.1.0"
+description = "Claude Hook Controller - HTTP notification system for Claude Code hooks"
+dependencies = [
+    "PyQt5",
+    "requests",
+]
+
+[tool.uv]
+dev-dependencies = []

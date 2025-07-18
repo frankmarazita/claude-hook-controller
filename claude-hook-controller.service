@@ -1,0 +1,15 @@
+[Unit]
+Description=Claude Hook Controller System Tray App
+After=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/repos/claude-hook-controller
+ExecStart=%h/repos/claude-hook-controller/hook-controller.py
+Restart=always
+RestartSec=10
+Environment=DISPLAY=:0
+Environment=QT_QPA_PLATFORM=xcb
+
+[Install]
+WantedBy=default.target
