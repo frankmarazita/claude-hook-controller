@@ -65,6 +65,10 @@ Settings are automatically stored in `config.json` when you first run the applic
 - **Left-click**: Toggle enabled/disabled state
 - **Right-click**: Access full menu with status and controls
 
+| Enabled | Disabled |
+|---------|----------|
+| ![Enabled](assets/enabled.png) | ![Disabled](assets/disabled.png) |
+
 ### Manual Testing
 
 Test the HTTP trigger manually:
