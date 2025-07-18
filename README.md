@@ -2,6 +2,16 @@
 
 A system tray application that provides toggleable HTTP notifications for Claude Code hooks. This tool allows you to control when and how Claude Code hooks trigger external HTTP requests, making it perfect for integrating Claude with other services while maintaining full control over when notifications are sent.
 
+## Who Is This For?
+
+Claude Code hooks allow you to extend Claude's functionality by triggering custom actions when tasks are completed. However, you may not always want these actions to occur. This controller lets you enable or disable a configured HTTP notification service with a simple system tray icon, giving you the flexibility to control when notifications are sent without modifying your Claude Code configuration.
+
+You can use this to:
+
+- Send notifications to external services like Slack, Discord, or custom webhooks
+- Trigger CI/CD pipelines or other automated workflows
+- Integrate with any HTTP-based service or API
+
 ## Features
 
 - **System Tray Integration**: Cross-platform system tray icon with visual status indicator
@@ -65,8 +75,8 @@ Settings are automatically stored in `config.json` when you first run the applic
 - **Left-click**: Toggle enabled/disabled state
 - **Right-click**: Access full menu with status and controls
 
-| Enabled | Disabled |
-|---------|----------|
+| Enabled                        | Disabled                         |
+| ------------------------------ | -------------------------------- |
 | ![Enabled](assets/enabled.png) | ![Disabled](assets/disabled.png) |
 
 ### Manual Testing
